@@ -51,7 +51,7 @@ where dept_name = 'Sales' or dept_name = 'Development'
 select last_name, count(last_name) as last_name_count
 from employees
 group by last_name
-order by last_name desc
+order by last_name_count desc
 ;
 
 -- epilogue
